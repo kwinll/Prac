@@ -1,5 +1,7 @@
 package C1_Stack_Queue;
 
+import org.omg.CORBA.INTERNAL;
+
 import java.util.Stack;
 
 public class Pro1_GetMinStack {
@@ -10,8 +12,8 @@ public class Pro1_GetMinStack {
 
 		public StackTwo() {
 
-			data = new Stack<>();
-			dataMin = new Stack<>();
+			data = new Stack<Integer>();
+			dataMin = new Stack<Integer>();
 		}
 
 		public void push(Integer value) {
@@ -50,8 +52,8 @@ public class Pro1_GetMinStack {
 		private Stack<Integer> dataMin;
 
 		public StackOne() {
-			data = new Stack<>();
-			dataMin = new Stack<>();
+			data = new Stack<Integer>();
+			dataMin = new Stack<Integer>();
 		}
 
 		public void push(Integer value) {
